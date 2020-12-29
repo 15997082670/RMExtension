@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FB52DCDB17C94D374ABA296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D9088A99BAB7942E9408310 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2FB52DCDB17C94D374ABA296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3D9088A99BAB7942E9408310 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		40C0D731DC5F0AC8A84661C2 /* Pods_RMExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5351C65125C378FB3BC040C8 /* RMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RMExtension.podspec; path = ../RMExtension.podspec; sourceTree = "<group>"; };
+		5351C65125C378FB3BC040C8 /* RMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMExtension.podspec; path = ../RMExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56E24DDE23D4C0257595A038 /* Pods-RMExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-RMExtension_Example/Pods-RMExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F7F3BC6AD2676B0641978CA /* Pods_RMExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RMExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				8ED94BBFC55E8BF8EDBECD70 /* Pods-RMExtension_Tests.debug.xcconfig */,
 				ACA5F2FA3E98677002F64258 /* Pods-RMExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

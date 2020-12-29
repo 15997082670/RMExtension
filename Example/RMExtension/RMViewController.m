@@ -7,6 +7,7 @@
 //
 
 #import "RMViewController.h"
+#import <RMExtension/UIView+Extension.h>
 
 @interface RMViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIView *redview = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    redview.backgroundColor = UIColor.blueColor;
+    [self.view addSubview:redview];
+    redview.width = 200;
 }
 
 - (void)didReceiveMemoryWarning

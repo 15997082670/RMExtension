@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RMExtension_Example' do
+  pod 'RMExtension', :path => '../'
+
+  target 'RMExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

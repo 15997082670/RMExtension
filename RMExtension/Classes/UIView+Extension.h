@@ -15,6 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (CGFloat)width;
 
+
+- (void)setHeight:(CGFloat)height;
+
+- (CGFloat)height;
+
 @end
 
 NS_ASSUME_NONNULL_END

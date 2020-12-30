@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43356D75259C48F00022DB74 /* RMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43356D74259C48F00022DB74 /* RMSecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 		2FB52DCDB17C94D374ABA296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D9088A99BAB7942E9408310 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		40C0D731DC5F0AC8A84661C2 /* Pods_RMExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43356D73259C48F00022DB74 /* RMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMSecondViewController.h; sourceTree = "<group>"; };
+		43356D74259C48F00022DB74 /* RMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSecondViewController.m; sourceTree = "<group>"; };
 		5351C65125C378FB3BC040C8 /* RMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMExtension.podspec; path = ../RMExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56E24DDE23D4C0257595A038 /* Pods-RMExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-RMExtension_Example/Pods-RMExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F7F3BC6AD2676B0641978CA /* Pods_RMExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RMViewController.h */,
 				6003F5A6195388D20070C39A /* RMViewController.m */,
+				43356D73259C48F00022DB74 /* RMSecondViewController.h */,
+				43356D74259C48F00022DB74 /* RMSecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RMAppDelegate.m in Sources */,
+				43356D75259C48F00022DB74 /* RMSecondViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* RMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

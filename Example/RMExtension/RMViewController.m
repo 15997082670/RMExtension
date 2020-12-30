@@ -8,6 +8,7 @@
 
 #import "RMViewController.h"
 #import <RMExtension/UIView+Extension.h>
+#import "RMSecondViewController.h"
 
 @interface RMViewController ()
 
@@ -18,11 +19,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *redview = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    UIButton *redview = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     redview.backgroundColor = UIColor.blueColor;
+    [redview addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:redview];
     redview.width = 200;
     redview.height = 200;
+}
+
+
+- (void)clickBtn{
+    RMSecondViewController *viewController = [RMSecondViewController new];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

@@ -11,6 +11,10 @@
 		430CC8CD259DC07F001F14CE /* RMCATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430CC8CC259DC07F001F14CE /* RMCATransitionViewController.m */; };
 		43356D75259C48F00022DB74 /* RMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43356D74259C48F00022DB74 /* RMSecondViewController.m */; };
 		43585CC625A1AE0E0072615A /* RMGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43585CC525A1AE0E0072615A /* RMGCDViewController.m */; };
+		436D850C25A2F2BF000ED64A /* RMNSOutputStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D850B25A2F2BF000ED64A /* RMNSOutputStreamViewController.m */; };
+		437C8B8A25A9B81000A37C2D /* RMNSHashTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437C8B8925A9B81000A37C2D /* RMNSHashTableViewController.m */; };
+		4394D65425A2BBB800C946AB /* RMStremViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394D65325A2BBB800C946AB /* RMStremViewController.m */; };
+		4394D65825A2C07200C946AB /* nice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4394D65725A2C07200C946AB /* nice.jpg */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -52,6 +56,13 @@
 		43356D74259C48F00022DB74 /* RMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSecondViewController.m; sourceTree = "<group>"; };
 		43585CC425A1AE0E0072615A /* RMGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMGCDViewController.h; sourceTree = "<group>"; };
 		43585CC525A1AE0E0072615A /* RMGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMGCDViewController.m; sourceTree = "<group>"; };
+		436D850A25A2F2BF000ED64A /* RMNSOutputStreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNSOutputStreamViewController.h; sourceTree = "<group>"; };
+		436D850B25A2F2BF000ED64A /* RMNSOutputStreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNSOutputStreamViewController.m; sourceTree = "<group>"; };
+		437C8B8825A9B81000A37C2D /* RMNSHashTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNSHashTableViewController.h; sourceTree = "<group>"; };
+		437C8B8925A9B81000A37C2D /* RMNSHashTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNSHashTableViewController.m; sourceTree = "<group>"; };
+		4394D65225A2BBB800C946AB /* RMStremViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMStremViewController.h; sourceTree = "<group>"; };
+		4394D65325A2BBB800C946AB /* RMStremViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMStremViewController.m; sourceTree = "<group>"; };
+		4394D65725A2C07200C946AB /* nice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nice.jpg; sourceTree = "<group>"; };
 		5351C65125C378FB3BC040C8 /* RMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMExtension.podspec; path = ../RMExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56E24DDE23D4C0257595A038 /* Pods-RMExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-RMExtension_Example/Pods-RMExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F7F3BC6AD2676B0641978CA /* Pods_RMExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +129,12 @@
 				430CC8CC259DC07F001F14CE /* RMCATransitionViewController.m */,
 				43585CC425A1AE0E0072615A /* RMGCDViewController.h */,
 				43585CC525A1AE0E0072615A /* RMGCDViewController.m */,
+				4394D65225A2BBB800C946AB /* RMStremViewController.h */,
+				4394D65325A2BBB800C946AB /* RMStremViewController.m */,
+				436D850A25A2F2BF000ED64A /* RMNSOutputStreamViewController.h */,
+				436D850B25A2F2BF000ED64A /* RMNSOutputStreamViewController.m */,
+				437C8B8825A9B81000A37C2D /* RMNSHashTableViewController.h */,
+				437C8B8925A9B81000A37C2D /* RMNSHashTableViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -163,6 +180,7 @@
 				6003F59C195388D20070C39A /* RMAppDelegate.h */,
 				6003F59D195388D20070C39A /* RMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				4394D65725A2C07200C946AB /* nice.jpg */,
 				6003F5A5195388D20070C39A /* RMViewController.h */,
 				6003F5A6195388D20070C39A /* RMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -275,6 +293,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhangbin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 28MGP872SU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -306,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4394D65825A2C07200C946AB /* nice.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -392,9 +414,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436D850C25A2F2BF000ED64A /* RMNSOutputStreamViewController.m in Sources */,
 				430CC8CD259DC07F001F14CE /* RMCATransitionViewController.m in Sources */,
 				6003F59E195388D20070C39A /* RMAppDelegate.m in Sources */,
 				43356D75259C48F00022DB74 /* RMSecondViewController.m in Sources */,
+				4394D65425A2BBB800C946AB /* RMStremViewController.m in Sources */,
+				437C8B8A25A9B81000A37C2D /* RMNSHashTableViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* RMViewController.m in Sources */,
 				43585CC625A1AE0E0072615A /* RMGCDViewController.m in Sources */,
 				430CC8C8259DBAEF001F14CE /* RMFirstViewController.m in Sources */,
@@ -526,6 +551,7 @@
 			baseConfigurationReference = 82F24F99CB91ABB7FE704F02 /* Pods-RMExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28MGP872SU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMExtension/RMExtension-Prefix.pch";
 				INFOPLIST_FILE = "RMExtension/RMExtension-Info.plist";
@@ -542,6 +568,7 @@
 			baseConfigurationReference = 56E24DDE23D4C0257595A038 /* Pods-RMExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28MGP872SU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMExtension/RMExtension-Prefix.pch";
 				INFOPLIST_FILE = "RMExtension/RMExtension-Info.plist";

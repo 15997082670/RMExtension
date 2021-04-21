@@ -24,6 +24,7 @@
         [self.view addSubview:redview];
         redview.width = 200;
         redview.height = 200;
+    [redview test];
 }
 
 /*

@@ -12,9 +12,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//    [self redirectNSlogToDocumentFolder];
     // Override point for customization after application launch.
     return YES;
 }
+
+
+#pragma mark - 日志收集
+- (void)redirectNSlogToDocumentFolder
+{
+    NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+
+    NSDateFormatter *dateformat = [[NSDateFormatter  alloc]init];
+    [dateformat setDateFormat:@"yyyy-MM-dd-HH-mm-ss"];
+    NSString *fileName = [NSString stringWithFormat:@"LOG-%@.txt",[dateformat stringFromDate:[NSDate date]]];
+    NSString *logFilePath = [documentDirectory stringByAppendingPathComponent:fileName];
+    
+    NSLog(@"filePath:%@",logFilePath);
+
+    // 先删除已经存在的文件
+    NSFileManager *defaultManager = [NSFileManager defaultManager];
+    [defaultManager removeItemAtPath:logFilePath error:nil];
+
+    // 将log输入到文件
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stdout);
+
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding], "a+", stderr);
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -11,7 +11,9 @@
 #import "RMSecondViewController.h"
 #import "RMCATransitionViewController.h"
 #import "RMGCDViewController.h"
-
+#import "RMStremViewController.h"
+#import "RMNSOutputStreamViewController.h"
+#import "RMNSHashTableViewController.h"
 
 @interface RMViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,6 +30,13 @@
     [super viewDidLoad];
     self.navigationItem.title = @"RMExtension";
     [self.view addSubview:self.tableView];
+    NSLog(@"--------");
+    NSLog(@"----eeee----");
+
+    NSLog(@"---qqqq----");
+
+    NSLog(@"---eeeeffff-----");
+
 }
 
 
@@ -73,6 +82,15 @@
         case 3:
             [self.navigationController pushViewController:[RMGCDViewController new] animated:YES];
             break;
+        case 4:
+            [self.navigationController pushViewController:[RMStremViewController new] animated:YES];
+            break;
+        case 5:
+            [self.navigationController pushViewController:[RMNSOutputStreamViewController new] animated:YES];
+            break;
+        case 6:
+            [self.navigationController pushViewController:[RMNSHashTableViewController new] animated:YES];
+            break;
             
         default:
             break;
@@ -94,7 +112,7 @@
 
 - (NSMutableArray*)dataSource{
     if (_dataSource == nil) {
-        _dataSource = @[@"UIView+Extension",@"weakTimeTarget",@"隐式动画",@"GCD"].mutableCopy;
+        _dataSource = @[@"UIView+Extension",@"weakTimeTarget",@"隐式动画",@"GCD",@"NSInputStream",@"NSOutputStream",@"NSHashTable"].mutableCopy;
     }
     return _dataSource;
 }

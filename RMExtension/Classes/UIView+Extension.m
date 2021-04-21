@@ -26,4 +26,9 @@
 - (CGFloat)height{
     return self.frame.size.height;
 }
+
+
+- (void)test{
+    
+}
 @end
